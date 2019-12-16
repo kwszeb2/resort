@@ -1,0 +1,210 @@
+#wrapper{
+
+margin-left:auto;
+margin-right:auto;
+width:80%;
+margin-bottom:200px;
+background-color:white;
+min-width:700px;
+max-width:1024px;
+box-shadow:3px 3px 3px #333;
+	
+}
+ 
+form { 
+	   font-family: Arial, sans-serif;
+       padding: 10px; 
+	   text-align: left; 
+	   margin-right:10px;
+	   }
+   
+label { float: left;
+	    width: 100px; 
+        clear: left;
+	    text-align: left; 
+	    padding-right: 10px;
+	    margin-top: 10px; }
+		
+.button
+{		margin-bottom:10px;
+		margin-left: 120px;
+		display: inline;
+}
+
+#Reset
+{
+	margin-left: 0;
+}
+		
+input, textarea { margin-top: 10px; 
+                  display: block;
+				} 
+
+input:required, input[required] { border:1px solid lightgray; }
+input:valid { border:1px solid black; }
+input:invalid { background-color:white; border-color:lightgray;}
+	
+#Night { width:4.5em; }
+
+				
+table{
+
+border: 1px solid black;
+border-collapse: collapse;
+width:90%;
+text-align:center;
+}	
+
+th, td {
+	border: 1px solid #3399cc;
+    padding: 10px;
+	text-align: center;	
+}			  
+
+#description{
+	text-align: left;
+}
+
+#shade {
+     background-color: #dee7ed;
+}
+
+#description1{
+	text-align: left;
+}
+
+#description2{
+	text-align: left;
+}
+
+#shade1 {
+     background-color: #dee7ed;
+}
+
+#Nights{
+	
+	width:4.5em;
+}
+
+image{
+	
+height:300px;
+background-size:100% 100%;
+background-repeat:no-repeat;
+	
+}
+
+.pacific {
+	
+color:#000033;
+font-size:1.2em;
+	
+}
+
+body{
+
+background-color: #FFFFFF;
+background: linear-gradient(to bottom, #FFFFFF, #7DA0BB);
+font-family:Verdana, Helvetica, sans-serif;
+
+}
+
+header{
+
+background-color: #000033;
+color: white;
+font-family:Georgia, sans-serif;
+	
+}
+
+h1{
+	
+line-height:200%;
+background-image:url("images/sunset.jpg");
+background-position:right;
+background-repeat:no-repeat;
+height:72px;
+padding-left:20px;
+margin-bottom:0;	
+
+}
+
+h2{
+	
+color:#3399CC;
+font-weight:700;
+font-family:Georgia, sans-serif;
+	
+}
+
+h3{
+color:#000033;	
+font-weight:700;
+}
+
+dt{
+	
+color:#000033;
+font-weight:700;	
+}
+
+nav {
+	
+background-color:#90C7E3;
+padding-bottom:5px;
+padding-left:5px;
+padding-right:5px;
+padding-top:5px;
+word-spacing: 1em;
+font-weight:700;		
+}
+
+nav a {
+
+text-decoration: none;
+
+}
+
+main{
+
+background-color:white;	
+padding-left:20px;
+padding-right:20px;	
+
+
+}
+
+footer{
+	
+font-size:.70em;
+font-style:italic;
+text-align:center;
+padding:10px;
+
+}
+
+#indexmainimg {
+
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-image: url("images/coast.jpg");
+height: 300px;
+
+}
+
+#yurtimg {
+	
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-image: url("images/yurt.jpg");
+height: 300px;	
+}
+
+#activityimg {
+	
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-image: url("images/coast.jpg");
+height: 300px;
+	
+}
